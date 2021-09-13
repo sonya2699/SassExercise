@@ -1,0 +1,59 @@
+.main h1:hover, .minor h1, .minor h2 {
+  text-align: center;
+  padding: 20px;
+}
+
+.main {
+  background-color: tan;
+}
+
+.main h1 {
+  color: #ddd;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  align-item: flex-start;
+}
+
+.main h1:hover {
+  text-decoration: underline;
+}
+
+.main h2 {
+  background-color: #964B00;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  align-item: center;
+}
+
+.main h3 {
+  background-color: #964B00;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  align-item: flex-end;
+}
+
+.minor {
+  background-color: silver;
+}
+
+.minor h1 {
+  text-decoration: underline;
+  margin-bottom: 100px;
+}
+
+.minor h2 {
+  text-decoration: line-through;
+}
+/*# sourceMappingURL=main.css.map */
